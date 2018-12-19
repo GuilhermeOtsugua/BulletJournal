@@ -1,0 +1,31 @@
+{
+  "name": "BJ-api",
+  "version": "0.0.1",
+  "description": "API do Bullet Journal",
+  "main": "src/server.js",
+  "engines": {
+    "node": "10.11.0"
+  },
+  "scripts": {
+    "start": "nodemon bootstrap",
+    "postinstall": "knex migrate:latest"
+  },
+  "keywords": [
+    "api",
+    "todo",
+    "tarefas",
+    "hapi"
+  ],
+  "author": "L A MINORA",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "hapi": "^17.6.0",
+    "knex": "^0.15.2",
+    "nodemon": "^1.18.4",
+    "sqlite3": "^4.0.2"
+  }
+}
