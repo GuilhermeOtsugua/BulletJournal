@@ -1,5 +1,5 @@
 # BulletJournal: TII-POS Sistema para avaliação dos alunos
 
-## Sites para consulta
-- http://bulletjournal.com/
-- https://www.dicasdemulher.com.br/bullet-journal/
+## Feito por:
+- Ana Clara Medeiros Costa (c-medeiros)
+- Guilherme Augusto Santana de Lima (GuilhermeOtsugua)
