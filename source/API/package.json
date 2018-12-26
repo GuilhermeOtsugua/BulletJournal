@@ -1,14 +1,15 @@
 {
-  "name": "BJ-api",
+  "name": "tarefas-api",
   "version": "0.0.1",
   "description": "API do Bullet Journal",
-  "main": "src/server.js",
+  "main": "bootstrap.js",
   "engines": {
     "node": "10.11.0"
   },
   "scripts": {
+    "dev-start": "nodemon bootstrap",
     "start": "nodemon bootstrap",
-    "postinstall": "knex migrate:latest"
+    "postinstall": "./node_modules/.bin/knex migrate:latest && ./node_modules/.bin/knex seed:run"
   },
   "keywords": [
     "api",
@@ -24,6 +25,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "hapi": "^17.6.0",
+    "hapi-auto-routes": "^1.1.0",
     "knex": "^0.15.2",
     "nodemon": "^1.18.4",
     "sqlite3": "^4.0.2"
